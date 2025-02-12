@@ -4,7 +4,7 @@
     <title>Introduction to Data Analysis in R</title>
     <meta charset="utf-8" />
     <meta name="author" content="Calum Webb" />
-    <meta name="date" content="2025-02-11" />
+    <meta name="date" content="2025-02-12" />
     <script src="intro-to-data-analysis-R_files/header-attrs/header-attrs.js"></script>
     <link href="intro-to-data-analysis-R_files/tile-view/tile-view.css" rel="stylesheet" />
     <script src="intro-to-data-analysis-R_files/tile-view/tile-view.js"></script>
@@ -122,8 +122,158 @@ class: middle, inverse
 
 ---
 
+class: middle
 
 
+
+.pull-left[
+
+&lt;br&gt;&lt;br&gt;
+
+# R compared to software for Data Analysis 
+
+* `R` is a programming language, rather than just a piece of software.
+* `R` has a central repository that holds packages that can expand what you are capable of doing with it.
+* `R` is free.
+* `R` has a very supportive and active community around it. 
+* `R` can do pretty much everything that any commercial software package can do, with a few very niche exceptions.. 
+
+]
+
+.pull-right[
+
+.center[
+
+&lt;div class="figure"&gt;
+&lt;img src="images/r_first_then.png" alt="Artwork by Allison Horst" width="85%" /&gt;
+&lt;p class="caption"&gt;Artwork by Allison Horst&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+]
+
+---
+
+class: middle, inverse
+
+# "But I'm not a programmer, I never studied computer science/mathematics/intro to programming before"
+
+---
+
+class: middle
+
+.center[
+
+&lt;img src="images/guis.png" width="70%" /&gt;
+
+]
+
+---
+
+class: middle
+
+.pull-left[
+
+# If you can use a computer, you can program.
+
+* It's not difficult, it's different. Getting used to something different takes time.
+* Instead of clicking virtual or real buttons that apply functions (i.e. make things happen), we give commands by writing text.
+* They are called **languages** for a reason — they have their own rules, grammar, and syntax — you have to practice them to get good at them.
+* **But**, that doesn't mean you can't use phrasebooks, especially if you only use the language occasionally. 
+
+]
+
+.pull-right[
+
+`open.spotify()`
+
+`search.playlists(search = "instrumental")`
+
+`play.playlist(playlist = "Instrumental Studying Mix")`
+
+`skip.track()`
+
+`rewind.track(seconds = 20)`
+
+`add.track.to.favourites()`
+
+`stop()`
+
+`quit.spotify()`
+
+
+]
+
+---
+
+class: middle
+
+.center[
+
+&lt;img src="images/errors.png" width="100%" /&gt;
+
+]
+
+---
+
+class: middle
+
+.center[
+
+&lt;img src="images/gui-errors.png" width="70%" /&gt;
+
+]
+
+
+---
+
+class: inverse, middle
+
+# We get errors all the time when using computers. The only difference between the errors you just saw and R errors is that the R errors are at least trying to tell you what went wrong.
+
+---
+
+class: inverse, middle
+
+# If you've ever used the "back" <svg aria-hidden="true" role="img" viewBox="0 0 320 512" style="height:1em;width:0.62em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"/></svg> or "undo" <svg aria-hidden="true" role="img" viewBox="0 0 512 512" style="height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;"><path d="M125.7 160H176c17.7 0 32 14.3 32 32s-14.3 32-32 32H48c-17.7 0-32-14.3-32-32V64c0-17.7 14.3-32 32-32s32 14.3 32 32v51.2L97.6 97.6c87.5-87.5 229.3-87.5 316.8 0s87.5 229.3 0 316.8s-229.3 87.5-316.8 0c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0c62.5 62.5 163.8 62.5 226.3 0s62.5-163.8 0-226.3s-163.8-62.5-226.3 0L125.7 160z"/></svg> button, change something, and then do it again to get the result you want — congratulations, you've corrected an error.
+
+
+---
+
+class: middle
+
+.pull-left[
+
+# What we're going to cover today:
+
+* A general rule for using code in R: things you have to change and things that stay the same. 
+* Basic univariate and bivariate descriptive statistics using Base R
+* Basic data visualisations using base R
+* Common bivariate inferential statistics using base R
+* Installing additional packages
+* Reading datasets into R, including SPSS datasets
+* Descriptive statistics using `tidyverse` and `janitor` tools
+* Data visualisations using `ggplot2`
+
+This is your phrasebook to help you on your R learning journey.
+
+]
+
+.pull-right[
+
+&lt;br&gt;&lt;br&gt;
+
+.center[
+
+&lt;div class="figure"&gt;
+&lt;img src="images/r_rollercoaster.png" alt="Artwork by Allison Horst" width="100%" /&gt;
+&lt;p class="caption"&gt;Artwork by Allison Horst&lt;/p&gt;
+&lt;/div&gt;
+
+]
+
+]
     </textarea>
 <style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
 <script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>

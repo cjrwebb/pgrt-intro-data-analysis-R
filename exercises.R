@@ -15,7 +15,7 @@
 #' Let's start with the script and the top-left pane: this is
 #' where you would write your R code, and any comments to
 #' yourself (this is a comment, it starts with a #, you can 
-#' use #' in order to aumatically continue your comment onto
+#' use #' in order to automatically continue your comment onto
 #' a new line when you press enter.)
 #' 
 #' In the top right is your 'environment'. This pane shows
@@ -129,7 +129,7 @@ first_roll > second_roll
 #' analysis. 
 
 
-#' 5. Using Datasets ---------------------------------------
+# 5. Using Datasets ---------------------------------------
 
 #' R has some built in datasets that we can start off using
 #' to illustrate some examples. We'll talk about how to read
@@ -155,7 +155,7 @@ ChickWeight$weight
 #' dataset in order to do data analysis. 
 
 
-#' 6.1 Univariate Descriptive Statistics ----------------
+# 6.1 Univariate Descriptive Statistics ----------------
 
 #' Base R has some fairly straightforward functions for
 #' generating simple descriptive statistics. For example,
@@ -223,7 +223,7 @@ table(chickwts$feed)
 
 
 
-#' 6.2 Creating a new variable ---------------------------
+# 6.2 Creating a new variable ---------------------------
 
 #' Before we demonstrate bivariate descriptive statistics,
 #' let's talk about how we could create a new variable.

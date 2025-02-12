@@ -24,6 +24,14 @@ class: middle, title
 background-size: contain
 
 
+<!---- SLIDES SAVED TO PDF USING: 
+
+decktape remark "slides/intro-to-data-analysis-R.html" slides/intro-to-data-analysis.pdf 
+
+using node.js
+
+---->
+
 <br><br>
 
 # An Introduction to Data Analysis using R
@@ -165,5 +173,169 @@ class: middle, inverse
 
 ---
 
+class: middle
 
 
+
+.pull-left[
+
+<br><br>
+
+# R compared to software for Data Analysis 
+
+* `R` is a programming language, rather than just a piece of software.
+* `R` has a central repository that holds packages that can expand what you are capable of doing with it.
+* `R` is free.
+* `R` has a very supportive and active community around it. 
+* `R` can do pretty much everything that any commercial software package can do, with a few very niche exceptions.. 
+
+]
+
+.pull-right[
+
+.center[
+
+```{r, echo = FALSE, fig.cap="Artwork by Allison Horst", out.width = "85%"}
+
+knitr::include_graphics("images/r_first_then.png")
+
+```
+
+]
+
+]
+
+---
+
+class: middle, inverse
+
+# "But I'm not a programmer, I never studied computer science/mathematics/intro to programming before"
+
+---
+
+class: middle
+
+.center[
+
+```{r, echo = FALSE, out.width = "70%"}
+
+knitr::include_graphics("images/guis.png")
+
+```
+
+]
+
+---
+
+class: middle
+
+.pull-left[
+
+# If you can use a computer, you can program.
+
+* It's not difficult, it's different. Getting used to something different takes time.
+* Instead of clicking virtual or real buttons that apply functions (i.e. make things happen), we give commands by writing text.
+* They are called **languages** for a reason — they have their own rules, grammar, and syntax — you have to practice them to get good at them.
+* **But**, that doesn't mean you can't use phrasebooks, especially if you only use the language occasionally. 
+
+]
+
+.pull-right[
+
+`open.spotify()`
+
+`search.playlists(search = "instrumental")`
+
+`play.playlist(playlist = "Instrumental Studying Mix")`
+
+`skip.track()`
+
+`rewind.track(seconds = 20)`
+
+`add.track.to.favourites()`
+
+`stop()`
+
+`quit.spotify()`
+
+
+]
+
+---
+
+class: middle
+
+.center[
+
+```{r, echo = FALSE, out.width = "100%"}
+
+knitr::include_graphics("images/errors.png")
+
+```
+
+]
+
+---
+
+class: middle
+
+.center[
+
+```{r, echo = FALSE, out.width = "70%"}
+
+knitr::include_graphics("images/gui-errors.png")
+
+```
+
+]
+
+
+---
+
+class: inverse, middle
+
+# We get errors all the time when using computers. The only difference between the errors you just saw and R errors is that the R errors are at least trying to tell you what went wrong.
+
+---
+
+class: inverse, middle
+
+# If you've ever used the "back" `r fontawesome::fa("angle-left")` or "undo" `r fontawesome::fa("arrow-rotate-left")` button, change something, and then do it again to get the result you want — congratulations, you've corrected an error.
+
+
+---
+
+class: middle
+
+.pull-left[
+
+# What we're going to cover today:
+
+* A general rule for using code in R: things you have to change and things that stay the same. 
+* Basic univariate and bivariate descriptive statistics using Base R
+* Basic data visualisations using base R
+* Common bivariate inferential statistics using base R
+* Installing additional packages
+* Reading datasets into R, including SPSS datasets
+* Descriptive statistics using `tidyverse` and `janitor` tools
+* Data visualisations using `ggplot2`
+
+This is your phrasebook to help you on your R learning journey.
+
+]
+
+.pull-right[
+
+<br><br>
+
+.center[
+
+```{r, echo = FALSE, fig.cap="Artwork by Allison Horst", out.width = "100%"}
+
+knitr::include_graphics("images/r_rollercoaster.png")
+
+```
+
+]
+
+]
