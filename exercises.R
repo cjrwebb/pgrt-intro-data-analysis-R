@@ -413,7 +413,7 @@ summary(lm_result)
 #' from the innermost function to the outermost.
 #' 
 #' haven: is a package for reading in all kinds of different
-#' data files, such as SPSS .sav files or STATA .dat files.
+#' data files, such as SPSS .sav files or STATA .dta files.
 #' 
 #' janitor: is a package with several helpful functions for
 #' creating tables and formatting them,
